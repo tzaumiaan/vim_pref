@@ -4,6 +4,9 @@ set writebackup
 set nobackup
 set noundofile
 colorscheme salmon
+if has ("gui_running")
+  set guifont=Ubuntu\ Mono\ 12
+endif
 set columns=120
 set encoding=utf-8
 set fileencoding=utf-8

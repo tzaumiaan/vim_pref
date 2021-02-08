@@ -1,8 +1,6 @@
 " Vim color file
 " Maintainer:	Min-An Chao <minan.chao@gmail.com>
-" Last Change:	$Date: 2021/02/03 15:00:00 $
-" URL:		http://hans.fugal.net/vim/colors/desert.vim
-" Version:	$Id: salmon.vim,v 0.1 $
+" Last Change:	05.02.2020
 
 " cool help screens
 " :he group-name
@@ -20,7 +18,7 @@ if version > 580
 endif
 let g:colors_name="salmon"
 
-hi Normal	guifg=White guibg=#101030
+hi Normal	guifg=White guibg=#101020
 
 " highlight groups
 hi Cursor	guibg=mistyrose guifg=salmon
@@ -55,16 +53,16 @@ hi WarningMsg	guifg=salmon
 
 " syntax highlighting groups
 hi Comment	guifg=silver
-hi Constant	guifg=darksalmon
-hi Identifier	guifg=springgreen
-hi Statement	guifg=salmon
-hi PreProc	guifg=skyblue
-hi Type		guifg=seashell
+hi Constant	guifg=lightsalmon
+hi Identifier	guifg=palegreen
+hi Statement	guifg=skyblue
+hi PreProc	guifg=salmon
+hi Type		guifg=lightskyblue
 hi Special	guifg=azure
 "hi Underlined
 hi Ignore	guifg=#181838
 "hi Error
-hi Todo		guifg=linen guibg=snow
+hi Todo		guifg=snow guibg=darksalmon
 
 " color terminal definitions
 hi SpecialKey	ctermfg=darkgreen
