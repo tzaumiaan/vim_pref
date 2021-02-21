@@ -5,12 +5,14 @@ set nobackup
 set noundofile
 colorscheme salmon
 if has ("gui_running")
+  "set guifont=Ubuntu\ Mono:h12
   set guifont=Ubuntu\ Mono\ 12
 endif
 set columns=120
 set encoding=utf-8
 set fileencoding=utf-8
-set ff=dos
+"set ff=dos
+set ff=unix
 set backspace=indent,eol,start
 syntax on
 set laststatus=2
