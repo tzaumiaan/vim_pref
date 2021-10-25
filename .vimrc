@@ -5,8 +5,8 @@ set nobackup
 set noundofile
 colorscheme salmon
 if has ("gui_running")
-  "set guifont=Ubuntu\ Mono:h12
-  set guifont=Ubuntu\ Mono\ 12
+  set guifont=Ubuntu\ Mono:h16
+  "set guifont=Ubuntu\ Mono\ 12
 endif
 set columns=120
 set encoding=utf-8
