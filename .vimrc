@@ -1,5 +1,6 @@
 set nu
 set ruler
+set nowrap
 set writebackup
 set nobackup
 set noundofile
@@ -13,7 +14,7 @@ if has ("gui_running")
   set guifont=Ubuntu\ Mono\ 13
 endif
 set columns=120
-set lines=40
+set lines=32
 set encoding=utf-8
 set fileencoding=utf-8
 "set ff=dos
