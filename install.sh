@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# macos has no realpath bash command
+realpath() {
+    [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
 HOME=`realpath ~`
 VIMRC_PATH=${HOME}
 VIM_THEME_PATH=${HOME}/.vim/colors
