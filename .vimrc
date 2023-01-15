@@ -1,14 +1,20 @@
 set nu
 set ruler
+set nowrap
 set writebackup
 set nobackup
 set noundofile
+" set all swap files in .vim folder
+set directory^=$HOME/.vim/swap//
+
 colorscheme salmon
+"colorscheme desert
 if has ("gui_running")
   set guifont=Ubuntu\ Mono:h16
-  "set guifont=Ubuntu\ Mono\ 12
+  "set guifont=Ubuntu\ Mono\ 13
 endif
 set columns=120
+set lines=32
 set encoding=utf-8
 set fileencoding=utf-8
 "set ff=dos

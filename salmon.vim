@@ -52,7 +52,7 @@ hi WarningMsg	guifg=salmon
 "hi Tooltip
 
 " syntax highlighting groups
-hi Comment	guifg=silver
+hi Comment	guifg=darkseagreen
 hi Constant	guifg=lightsalmon
 hi Identifier	guifg=palegreen
 hi Statement	guifg=skyblue
