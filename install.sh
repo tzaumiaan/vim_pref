@@ -3,6 +3,7 @@
 HOME=`realpath ~`
 VIMRC_PATH=${HOME}
 VIM_THEME_PATH=${HOME}/.vim/colors
+VIM_SWAP_PATH=${HOME}/.vim/swap  # used in .vimrc
 
 echo "VIM env takes [${HOME}] as home directory..."
 
@@ -22,3 +23,4 @@ link_file () {
 
 link_file ${VIMRC_PATH} `realpath .` .vimrc
 link_file ${VIM_THEME_PATH} `realpath .` salmon.vim
+mkdir -p ${VIM_SWAP_PATH}
