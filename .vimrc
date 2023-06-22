@@ -22,6 +22,11 @@ set ff=unix
 set backspace=indent,eol,start
 syntax on
 set laststatus=2
+set hlsearch
+set belloff=all
+
+" associate sv files
+autocmd BufNewFile,BufRead *.sv,*.svh,*.mp set syntax=systemverilog
 
 " highlist tab
 highlight SpecialKey ctermfg=1
