@@ -13,7 +13,7 @@ if version > 580
     " complaining
     hi clear
     if exists("syntax_on")
-	syntax reset
+        syntax reset
     endif
 endif
 let g:colors_name="salmon"
@@ -53,12 +53,12 @@ hi WarningMsg	guifg=salmon
 
 " syntax highlighting groups
 hi Comment	guifg=darkseagreen
-hi Constant	guifg=lightsalmon
+hi Constant	guifg=salmon
 hi Identifier	guifg=palegreen
 hi Statement	guifg=skyblue
-hi PreProc	guifg=salmon
+hi PreProc	guifg=gold
 hi Type		guifg=lightskyblue
-hi Special	guifg=azure
+hi Special	guifg=salmon
 "hi Underlined
 hi Ignore	guifg=#181838
 "hi Error
