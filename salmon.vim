@@ -55,10 +55,10 @@ hi WarningMsg	guifg=salmon
 hi Comment	guifg=darkseagreen
 hi Constant	guifg=salmon
 hi Identifier	guifg=palegreen
-hi Statement	guifg=skyblue
+hi Statement	guifg=lightsalmon
 hi PreProc	guifg=gold
 hi Type		guifg=lightskyblue
-hi Special	guifg=salmon
+hi Special	guifg=#bb7fff
 "hi Underlined
 hi Ignore	guifg=#181838
 "hi Error
