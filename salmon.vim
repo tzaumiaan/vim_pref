@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:	Min-An Chao <minan.chao@gmail.com>
-" Last Change:	05.02.2020
+" Last Change:	31.08.2023
 
 " cool help screens
 " :he group-name
@@ -21,6 +21,7 @@ let g:colors_name="salmon"
 hi Normal	guifg=White guibg=#101020
 
 " highlight groups
+hi ColorColumn	guibg=lightsalmon
 hi Cursor	guibg=mistyrose guifg=salmon
 "hi CursorIM
 "hi Directory
