@@ -13,7 +13,8 @@ if has ("gui_running")
   "set guifont=Ubuntu\ Mono:h12
   set guifont=Ubuntu\ Mono\ 13
 endif
-set columns=120
+set columns=124
+set colorcolumn=120
 set lines=32
 set encoding=utf-8
 set fileencoding=utf-8
