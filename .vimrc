@@ -30,7 +30,7 @@ set belloff=all
 autocmd BufNewFile,BufRead *.sv,*.svh,*.mp set syntax=systemverilog
 
 " highlist tab
-highlight SpecialKey ctermfg=1
+highlight SpecialKey ctermfg=2
 set list
 set listchars=tab:T>
 
