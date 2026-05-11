@@ -10,7 +10,18 @@ VIMRC_PATH=${HOME}
 VIM_THEME_PATH=${HOME}/.vim/colors
 VIM_SWAP_PATH=${HOME}/.vim/swap  # used in .vimrc
 
+NVIM_CONFIG_PATH=${HOME}/.config/nvim
+NVIM_THEME_PATH=${NVIM_CONFIG_PATH}/colors
+
 echo "VIM env takes [${HOME}] as home directory..."
+
+# Check for installations
+if ! command -v vim &> /dev/null; then
+    echo "Warning: [vim] is not installed."
+fi
+if ! command -v nvim &> /dev/null; then
+    echo "Warning: [nvim] is not installed."
+fi
 
 link_file () {
   # $1: link folder path
@@ -29,3 +40,7 @@ link_file () {
 link_file ${VIMRC_PATH} `realpath .` .vimrc
 link_file ${VIM_THEME_PATH} `realpath .` salmon.vim
 mkdir -p ${VIM_SWAP_PATH}
+
+# Neovim links
+link_file ${NVIM_CONFIG_PATH} `realpath .` init.lua
+link_file ${NVIM_THEME_PATH} `realpath .` salmon.vim
